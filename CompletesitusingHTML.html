@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>Logo...Topbar...Date:</div>
+        <div>
+            <nav>
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html">About Us:</a>
+                  </li>
+                  <li>
+                    <a href="service.html">Our Service</a>
+                  </li>
+                  <li>
+                    <a href="table.html">Table</a>
+                  </li>
+                  <li>
+                    <a href="CompletesitusingHTML.html">Complete Site</a>
+                  </li>
+                  <li>
+                    <a href="Contact.html">Contact Us:</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <aside>
+            Related Articles, Sidebar
+        </aside>
+        <section>
+            <h2>About Us:</h2>
+            <p>This is about us section.</p>
+        </section>
+        <section>
+            <h2>Our services</h2>
+            <p>This is our services section</p>
+        </section>
+        <section>
+            <h2>Our Products</h2>
+            <p>This is our products section.</p>
+             <table border="1">
+        <thead>
+            <tr>
+                <th>SN</th>
+                <th>Name</th>
+                <th>Particular</th>
+                <th>Price</th>
+                <th>Categories</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Monitor</td>
+                <td>Dell Monitor</td>
+                <td rowspan="2">Electronics</td>
+                 <td>NRP. 19,500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CPU</td>
+                <td>Dell CPU</td>
+                <td>NPR.56000</td>
+            </tr>
+            <tr>
+                <td colspan="4"> Total</td>
+                <td>NPR. 456000</td>
+            </tr>
+        </tbody>
+    </table>
+        </section>
+        <section>
+            <h2>Feedback</h2>
+            <p>This is feedback form</p>
+            </section>
+            <form action="/" method="POST">
+                <label for="Name"> Name:</label>
+                <input type="text" id="Name" name="Name" required><br><br>
+                <label for="email"> Email:</label>
+                <input type="email" id="Email" name="Email" required><br><br>
+                <label for="message"> Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50">
+                </textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        <section>
+            <h2>Gallery</h2>
+            <p>This is our gallery section</p>
+            <img src="Nature.jpg" height="200px" width="200px"/>
+        </section>
+    </main>
+</body>
+</html>
